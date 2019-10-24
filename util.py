@@ -9,3 +9,4 @@
 
 DATA_SET_PATH = "../dataset/dataset.csv"
 GRU_MODEL_PATH = '../gru/gru.h5'
+LSTM_MODEL_PATH = '../lstm/lstm.h5'

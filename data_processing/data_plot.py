@@ -93,9 +93,9 @@ class Plot_Data(object):
 
 
 	def run(self):
-		# self.sample_plots_by_scn(df=self.dataset_1, num_graphs=6, num_per_row=2)
-		# self.plot_clear_dataset(self.clear_dataset)
-		# self.subplots_acf_pacf(self.clear_dataset)
+		self.sample_plots_by_scn(df=self.dataset_1, num_graphs=6, num_per_row=2)
+		self.plot_clear_dataset(self.clear_dataset)
+		self.subplots_acf_pacf(self.clear_dataset)
 		self.test_stationarity(self.clear_dataset.squeeze(), 18)
 
 
